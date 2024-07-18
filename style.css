@@ -1,0 +1,366 @@
+alert{
+    color: #715639;
+    background-color: #282627;
+    border: 2px solid #715639;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #050505;
+    font-family: 'Gothic A1', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 90px;
+    color: #b4844c;
+}
+
+
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    color: white;
+}
+
+h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+
+h4{
+    font-size: 18px;
+    color: white;
+}
+
+
+p {
+    color: white;
+}
+
+p2{
+    color: white;
+    font-style: italic;
+}
+
+/*botones*/
+
+.btn-vmas{
+    font-family: 'Gothic A1', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: #715639;
+    width: 230px;
+    height: 60px;
+    border: 4px solid white;
+    margin: 50px 0px;
+}
+
+.btn-cerrar {
+    background-color: #715639;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/*nav */
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    z-index: 10000000;
+    width: 100%;
+}
+
+
+.container-fluid{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #131313;
+    color: #b4844c;
+    margin: 0;
+
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+
+.nav-item{
+    padding: 0 25px;
+    height: 40px;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-weight: 100;
+
+}
+
+.nav-link:hover{
+    color: #b4844c;
+
+}
+
+.nav-link:visited{
+    color: white;
+
+}
+
+.navbar-toggler{
+    color: #b4844c;
+    background-color: #131313;
+
+}
+
+.navbar-toggler-icon{
+    color: #b4844c;
+    
+}
+
+#navbarDropdown {
+    color: #b4844c;
+} 
+
+
+.dropdown-menu{
+    color: #b4844c;
+    background-color: #131313;
+} 
+
+.dropdown-menu a{
+    color: #b4844c;
+}
+
+
+#navbarNav{
+    background-color: #131313;
+    justify-content: space-around;
+}
+
+
+/*nav fin */
+
+.nosotros {
+    background-image: url(img/nosotros.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    width: 100%;
+    height: 720px;
+} .nosotros-container{
+    width: 50%;
+    padding: 70px;
+}
+
+/*BOTONES DESPLEGABLES */
+
+.accordion {
+    background-color: transparent;
+}
+
+.accordion-item{
+    background-color: transparent;
+    border: 0px;
+}
+
+.accordion-button {
+    background-color: #715639;
+    color: white;
+    height: 45px;
+    border-radius: 0px;
+    margin: 35px 0px;
+    font-size: 20px;
+} 
+
+.accordion-collapse{
+ background-color: black;
+}
+
+.accordion-body{
+    background-color: #282627;
+    color: white;
+}
+
+/* FIN Nosotros */
+
+/* Fotos */
+
+.fotos {
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+} .imagen{
+    border: 1px solid #715639;
+    margin: 15px;
+}
+
+/*CURSOS */
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+    background-image: url(img/curs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} .bartender-profesional{
+    text-align: center;
+    margin: 0 0 50px 0;
+} 
+.practica-cocteles {
+    text-align: center;
+    margin: 0 0 50px 0;
+}.barista-profesional{
+    text-align: center;
+    margin: 0 0 50px 0;
+} .arte-latte {
+    text-align: center;
+    margin: 0 0 50px 0;
+} .barmanager{
+    text-align: center;
+    margin: 0 0 50px 0;
+} .barra-eventos {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+#modal{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-image: url(img/cursos.jpg);
+    background-size: cover;
+} backdrop {
+    background-color: rgb(0,0,0,-35);
+
+}
+
+#modal2{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-image: url(img/cursos.jpg);
+    background-size: cover;
+} backdrop {
+    background-color: rgb(0,0,0,-35);
+
+}
+
+#modal3{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-image: url(img/cursos.jpg);
+    background-size: cover;
+} backdrop {
+    background-color: rgb(0,0,0,-35);
+
+}
+
+#modal4{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-image: url(img/cursos.jpg);
+    background-size: cover;
+} backdrop {
+    background-color: rgb(0,0,0,-35);
+
+}
+
+#modal5{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-image: url(img/cursos.jpg);
+    background-size: cover;
+} backdrop {
+    background-color: rgb(0,0,0,-35);
+
+}
+
+#modal6{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-image: url(img/cursos.jpg);
+    background-size: cover;
+} backdrop {
+    background-color: rgb(0,0,0,-35);
+
+}
+
+/* contacto */
+
+.contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #131313;
+    padding: 50px;
+    text-align: center;
+} input{
+    width: 540px;
+    height: 32px;
+    margin: 15px;
+    border: 1px solid #b4844c;
+    background-color: transparent;
+} textarea{
+    width: 540px;
+    height: 150px;
+    margin: 15px;
+    border: 1px solid #b4844c;
+    background-color: transparent;
+    resize: none;
+} .btn-form{
+    width: 240px;
+    height: 35px;
+    color: white;
+    background-color: #b4844c;
+    border: none;
+    margin: 0 30px 20px; 
+
+}
+
+.contacto h2{
+    color: #b4844c;
+}
