@@ -248,6 +248,7 @@ p2{
       flex-direction: column;
       align-content: center;
     } .imagen{
+        width: 80%;
         margin: 5px;
     }
   }
@@ -284,6 +285,17 @@ p2{
     text-align: center;
     margin: 0 0 50px 0;
 }
+
+@media (max-width: 576px) {
+
+    .curso{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
 
 #modal{
     width: 800px;
@@ -393,6 +405,18 @@ p2{
 .contacto h2{
     color: #b4844c;
 }
+
+
+@media (max-width: 576px) {
+
+    .contacto{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
 
 footer{
     display: flex;
