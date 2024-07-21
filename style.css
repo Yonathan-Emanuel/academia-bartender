@@ -249,7 +249,7 @@ p2{
       flex-direction: column;
       align-content: center;
     } .imagen{
-        width: 80%;
+        width: 90%;
         margin: 5px;
     }
   }
@@ -298,7 +298,7 @@ p2{
     } h2{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 50px;
-        color: red;
+        color: white;
     }
   }
 
@@ -413,15 +413,38 @@ p2{
 }
 
 
-@media (max-width: 576px) {
-
+@media (max-width: 667px) {
     .contacto{
       display: flex;
       flex-direction: column;
       width: 100%;
       flex-wrap: wrap;
+    } h2{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 50px;
+    } input{
+        width: 880px;
+        height: 32px;
+        margin: 15px;
+        border: 1px solid #b4844c;
+        background-color: transparent;
+    } textarea{
+        width: 280px;
+        height: 150px;
+        margin: 15px;
+        border: 1px solid #b4844c;
+        background-color: transparent;
+        resize: none;
+    } .btn-form{
+        width: 220px;
+        height: 35px;
+        color: white;
+        background-color: #b4844c;
+        border: none;
+        margin: 0 30px 20px; 
     }
-  }
+    }
+  
 
 
 footer{
