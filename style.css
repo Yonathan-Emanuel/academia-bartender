@@ -292,7 +292,7 @@ p2{
     .curso{
       display: flex;
       flex-direction: column;
-      width: 667px;
+      width: 100%;
       padding: 10px 0px 10px 0px;
       flex-wrap: wrap;
     } h2{
@@ -314,6 +314,17 @@ p2{
     background-color: rgb(0,0,0,-35);
 
 }
+
+@media (max-width: 667px) {
+
+    #modal1{
+        width: 650px;
+        height: 600px;
+        margin: auto;
+    } h2{
+        font-size: 50px;
+    }
+  }
 
 #modal2{
     width: 800px;
