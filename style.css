@@ -428,6 +428,7 @@ p2{
       flex-direction: column;
       width: 100%;
       flex-wrap: wrap;
+      text-align: center;
     } h2{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 50px;
