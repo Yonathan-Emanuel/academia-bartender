@@ -288,14 +288,12 @@ p2{
 }
 
 @media (max-width: 667px) {
-
-    .curso{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 10px 0px 10px 0px;
-      flex-wrap: wrap;
-    } h2{
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+     } h2{
         font-family: 'Bebas Neue', sans-serif;
         font-size: 50px;
         color: white;
